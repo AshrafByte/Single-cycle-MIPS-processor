@@ -1,0 +1,17 @@
+module regFile
+(
+	input clk, writeEn,
+	input [4:0]	readReg1, readReg2, writeReg, 
+	input [31:0] writeData,
+	output reg [31:0]	readData1, readData2
+);
+	reg [31:0] register [0:4] ;
+	always @(posedge clk) 
+	begin
+		readData1 <= register [readReg1];
+		readData2 <= register [readReg2];
+		if (writeEn)
+			register[writeReg] <= writeData ;
+	end
+	
+endmodule

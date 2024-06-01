@@ -1,0 +1,54 @@
+module controller
+(
+	input	[5:0] funct , Opcode,
+	output 
+			RegDst, 
+			Branch,
+			MemtoReg,
+			MemWrite,
+			ALUSrc,
+			RegWrite,
+	output [2:0] ALUOp
+);
+// Main Decoder
+ R    = 0 ;
+localparam addi = 8 ;
+localparam andi = 12 ;
+localparam beg	 = 4;
+localparam bne  = 5 ;
+localparam j 	 = 2 ;
+localparam jal  = 3 ;
+localparam lb 	 = 32 ;
+localparam lh 	 = 33 ;
+localparam lui  = 15 ;
+localparam lw 	 = 35 ;
+localparam ori  = 13 ;
+localparam sb 	 = 40 ;
+localparam sh 	 = 41 ;
+localparam slti = 10 ;
+localparam sw 	 = 43 ;
+localparam xori = 14 ;
+always @(*) begin
+	case(Opcode)
+		 R    :
+		 addi :
+		 andi :
+		 beg	:
+		 bne  :
+		 j    :
+		 jal  :
+		 lb 	:
+		 lh 	:
+		 lui  :
+		 lw 	:
+		 ori  :
+		 sb 	:
+		 sh 	:
+		 slti :
+		 sw 	: 
+		 xori :
+			
+	endcase
+end
+
+endmodule

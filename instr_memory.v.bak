@@ -1,0 +1,6 @@
+module instr_memory
+(
+	input address,
+	output readData
+);
+endmodule

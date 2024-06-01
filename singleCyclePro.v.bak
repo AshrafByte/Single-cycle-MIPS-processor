@@ -1,0 +1,8 @@
+module singleCyclePro
+(
+	input clk , reset
+	output [31:0] writeData , dataAddr,
+	output memWrite
+);
+
+endmodule

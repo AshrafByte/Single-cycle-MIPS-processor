@@ -1,0 +1,8 @@
+module data_memory
+(
+	input clk , writeEn,
+	input[31:0] ALUOut , writeData
+	output [31:0] readData
+);
+
+endmodule

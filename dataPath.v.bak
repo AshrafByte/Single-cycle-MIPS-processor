@@ -1,0 +1,31 @@
+module dataPath
+(
+	input clk , reset ,
+	input regDst, 
+			PCSrc,
+			memToReg,
+			ALUSrc,
+			regWrite,
+			jump,
+	input [2:0] ALU_controls,		
+	input [31:0] instr , readData,
+	output zero,
+	output reg [31:0] PC , ALUOut , writeData 
+);
+// register destination Mux
+	wire [4:0] rD_mux;
+	assign rD_mux = regDst ?  instr[15:11] : instr[20:16] ;
+	
+// register file
+	wire [31:0] rD1 , rD2;
+	regFile rf 
+	(
+		.clk(clk)
+		.readReg1(instr[25:21]), 
+		.readReg2(instr[20:18]), 
+		.writeReg(rD_mux),
+		.writeData(mTRMux(memToReg),
+		.readData1(rD1),
+		.readData2(rD2),
+	)
+end module

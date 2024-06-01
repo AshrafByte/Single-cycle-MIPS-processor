@@ -1,0 +1,323 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Hamad/OneDrive/Documents/Digital_design/simulation/modelsim
+vadd
+Z1 !s110 1708261352
+!i10b 1
+!s100 HBgL_:JXW:ZcB5B:cf:4<2
+IQ?<^7DGkd0cVG9;D8ZR4d0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1708248979
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/add.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/add.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1708261352.000000
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/add.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/add.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design
+Z7 tCvgOpt 0
+vALU
+Z8 !s110 1708261353
+!i10b 1
+!s100 _iZoS9E1LAh;UAI<ILInI0
+Ikk9Lf^TodgZNmGWSWmGaV3
+R2
+R0
+w1708249614
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/ALU.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/ALU.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/ALU.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/ALU.v|
+!i113 1
+R5
+R6
+R7
+n@a@l@u
+vcontroller
+Z9 !s110 1708261351
+!i10b 1
+!s100 Ho;VgG3FhU:VCanUIOUNP0
+ITfhG9DGg9n;Y`4V=_mn000
+R2
+R0
+w1708260961
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/controller.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/controller.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1708261351.000000
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/controller.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/controller.v|
+!i113 1
+R5
+R6
+R7
+vdata_memory
+R9
+!i10b 1
+!s100 _ZeA@R8Ga:>[5IO9CF^0<0
+I]Jzo25=QoY^I9aiPRI5aH2
+R2
+R0
+w1708017351
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/data_memory.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/data_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/data_memory.v|
+!i113 1
+R5
+R6
+R7
+vdataPath
+R9
+!i10b 1
+!s100 h6AO2n[f;OXV1zUeU<h1H0
+I]D`NDKHFg4SIZzOTMfCW>1
+R2
+R0
+w1708256364
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/dataPath.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/dataPath.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/dataPath.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/dataPath.v|
+!i113 1
+R5
+R6
+R7
+ndata@path
+vflipflop
+R8
+!i10b 1
+!s100 F^@C2Dl1V6Cb_Z;_mUm<:1
+IXK2encSkV8H_M`eZV30Xd3
+R2
+R0
+w1708257057
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/flipflop.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/flipflop.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z11 !s108 1708261353.000000
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/flipflop.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/flipflop.v|
+!i113 1
+R5
+R6
+R7
+vinstr_memory
+R8
+!i10b 1
+!s100 C`0O]Zm@ZBLbPZc]8QmNX0
+ImFdofIY@h^IaPchMJzEMC3
+R2
+R0
+w1708020456
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/instr_memory.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/instr_memory.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/instr_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/instr_memory.v|
+!i113 1
+R5
+R6
+R7
+vmips
+Z12 !s110 1708261350
+!i10b 1
+!s100 ePL>B78[ZhOTd<>f9bRn]2
+I2cTeegQIn73T01g[[3iKg2
+R2
+R0
+w1708257311
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/mips.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/mips.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z13 !s108 1708261350.000000
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/mips.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/mips.v|
+!i113 1
+R5
+R6
+R7
+vmux2
+R9
+!i10b 1
+!s100 c?c1^284RbFzW=9>O8<I`1
+I_T:0Uc9Hl_eLUg`^7ZXTL1
+R2
+R0
+w1708001400
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/mux2.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/mux2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/mux2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/mux2.v|
+!i113 1
+R5
+R6
+R7
+vregFile
+R1
+!i10b 1
+!s100 F5:T^WaPKjoi`SNGF?oM?1
+I<nn3^fFeb_m@Sd@Ff`A3<1
+R2
+R0
+w1708012304
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/regFile.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/regFile.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/regFile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/regFile.v|
+!i113 1
+R5
+R6
+R7
+nreg@file
+vsignExt
+R1
+!i10b 1
+!s100 PGl;fXHU3PGHkYkkdB;lb3
+IKd45RJOTSVSRWc`COH=103
+R2
+R0
+w1708008686
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/signExt.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/signExt.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/signExt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/signExt.v|
+!i113 1
+R5
+R6
+R7
+nsign@ext
+vsingleCyclePro
+R8
+!i10b 1
+!s100 MMSc=SN9iJTF6C@Ukf_4J1
+ICO`U2mMZ76bJ=[gSVA;E;2
+R2
+R0
+w1708257332
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/singleCyclePro.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/singleCyclePro.v
+L0 1
+R3
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/singleCyclePro.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/singleCyclePro.v|
+!i113 1
+R5
+R6
+R7
+nsingle@cycle@pro
+vsll2
+R1
+!i10b 1
+!s100 zB`IoN@diNSHYR1hjH=C^3
+I=NhfB5PKgk41O7^@aNoaA3
+R2
+R0
+w1708024504
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/sll2.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/sll2.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/sll2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/sll2.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R12
+!i10b 1
+!s100 `YeK_D^1z<FfP7kn>LLF>1
+IBk?2hN7DULJARgXJR=IBT1
+R2
+R0
+w1708261337
+8C:/Users/Hamad/OneDrive/Documents/Digital_design/testbench.v
+FC:/Users/Hamad/OneDrive/Documents/Digital_design/testbench.v
+L0 1
+R3
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/Hamad/OneDrive/Documents/Digital_design/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Hamad/OneDrive/Documents/Digital_design|C:/Users/Hamad/OneDrive/Documents/Digital_design/testbench.v|
+!i113 1
+R5
+R6
+R7
